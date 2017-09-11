@@ -1,7 +1,7 @@
 {application, exometer_report_graphite,
  [{description, "Graphite reporter for Exometer compatible with exometer_core"},
   {vsn, "1"},
-  {modules, [exometer_report_statsd]},
+  {modules, [exometer_report_graphite]},
   {registered, []},
   {applications, [kernel, stdlib]},
   {env, []}
