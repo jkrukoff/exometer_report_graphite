@@ -1,6 +1,6 @@
-# Exometer graphite reporter.
+# Exometer graphite reporter
 
-## Usage.
+## Usage
 
 This reporter is meant to be used with
 [exometer_core](https://github.com/Feuerlabs/exometer_core).
@@ -15,7 +15,7 @@ reporter receives a metric-datapoint value (subscribed to through
 `exometer_report:subscriber()`), the reporter will immediately
 forward the key-value pair to the graphite server.
 
-#### Configuring graphite reporter
+### Configuring Graphite Reporter
 
 Below is an example of the a graphite reporter application environment, with
 its correct location in the hierarchy:
@@ -65,7 +65,7 @@ as `Prefix.Metric`.
 if neither `prefix` or `api_key` is specified, each metric will be reported
 simply as `Metric`.
 
-## Lineage.
+## Lineage
 
 This is a direct copy of the original graphite reporter from
 [exometer](https://github.com/Feuerlabs/exometer). In order to use the
